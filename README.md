@@ -1,26 +1,88 @@
-# notes
+# Notes App
 
-This is a Next.js application generated with
-[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+A modern, responsive notes application built with Next.js and TypeScript. This application allows users to create, view, and organize notes with a clean and intuitive interface.
 
-Run development server:
+## Features
 
+- 📝 Create and manage notes
+- 🏷️ Tag-based organization
+- 🌓 Dark/Light mode support
+- 📱 Responsive design
+- ⚡ Fast and modern UI
+- 🔍 Search functionality
+- 📅 Date-based organization
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) - React framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [shadcn/ui](https://ui.shadcn.com/) - UI components
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/notes.git
+cd notes
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
-# or
-pnpm dev
 # or
 yarn dev
 ```
 
-Open http://localhost:3000 with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js and Fumadocs, take a look at the following
-resources:
+```
+notes/
+├── src/
+│   ├── app/              # Next.js app directory
+│   ├── components/       # React components
+│   ├── lib/             # Utility functions and types
+│   └── styles/          # Global styles
+├── public/              # Static assets
+└── package.json         # Project dependencies
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Fumadocs](https://fumadocs.vercel.app) - learn about Fumadocs
+## Key Components
+
+- `NoteCard` - Displays individual note previews
+- `Tags` - Reusable component for displaying note tags
+- `NoteEditor` - Interface for creating and editing notes
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Built with [Next.js](https://nextjs.org/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
